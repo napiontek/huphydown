@@ -22,3 +22,5 @@ This first appendix includes all of the R chunks of code that were hidden throug
 ```
 
 # The Second Appendix, for Fun
+
+\clearpage
