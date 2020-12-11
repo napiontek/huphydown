@@ -1,0 +1,23 @@
+Package: huphydown
+Title: An updated R Markdown thesis template for physics students at Humboldt-University of Berlin using the bookdown package
+Version: 0.0.1
+Authors@R: person("Jakob", "Napiontek", email = "jakob.napiontek@physik.hu-berlin.de", role = c("cre", "aut"))
+Description: Using the bookdown package and templates from HU Berlin Institute of Physics, this package aims to encourage reproducible research using
+    simple Markdown syntax while embedding all of the R code to produce plots and analyses as well. Based on Chester Ismay's `thesisdown` package.
+Maintainer: Jakob Napiontek <jakob.napiontek@physik.hu-berlin.de>
+Depends:
+    R (>= 3.2.0)
+Imports: 
+    dplyr,
+    ggplot2,
+    bookdown,
+    knitr,
+    here
+Suggests:
+    remotes,
+    usethis
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+SystemRequirements: pandoc (>= 1.18) - https://pandoc.org
+RoxygenNote: 7.1.1
